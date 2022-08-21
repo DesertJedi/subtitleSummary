@@ -91,7 +91,7 @@ def create_summary(sentence_scores):
     return summary
 
 if __name__ == '__main__':
-    file = r"srt\Elvis.srt"
+    file = r"srt\The_Rock.srt"
     subtitles = import_srt(file)
     subtitles = clean_subs(subtitles)
     clean_text = remove_punctuation_and_quotes(subtitles)
